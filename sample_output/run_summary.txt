@@ -1,0 +1,15 @@
+Plan vs Actual Reconciliation - run summary
+plan_items=9
+actual_records=10
+matched=7
+missing=1
+extra=1
+ambiguous=1
+status.ambiguous=1
+status.borderline=1
+status.extra=1
+status.material_match=1
+status.material_mismatch=1
+status.missing=1
+status.out_of_tol=1
+status.within=3

@@ -1,0 +1,6 @@
+services:
+  recon-demo:
+    build: .
+    network_mode: none
+    volumes:
+      - ./sample_output:/app/sample_output

@@ -1,0 +1,7 @@
+item_id,location,description,category,status,expected,actual,unit,tol_plus,tol_minus,delta,note
+P-002,Room-101-WallN,Wall height,dimension,out_of_tol,2400,2415,mm,10,10,15,
+P-003,Room-102-WindowA,Window width,dimension,borderline,1200,1207.5,mm,8,8,7.5,
+P-005,Room-103-Floor,Floor finish material,material,material_mismatch,oak,laminate,,,,,
+P-004,Room-102-BeamA,Beam length,dimension,missing,3000,,mm,15,15,,plan item has no corresponding actual record
+A-999,Room-106-Shelf,,,extra,,450,mm,,,,actual record has no corresponding plan item
+P-009,Room-105-ColumnA,Column diameter,dimension,ambiguous,800,,mm,5,5,,"2 actual records match this plan item (source rows [7, 8]); needs human review"

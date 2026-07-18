@@ -1,0 +1,86 @@
+[
+  {
+    "category": "dimension",
+    "description": "Door width",
+    "expected_value": 900.0,
+    "item_id": "P-001",
+    "location": "Room-101-DoorA",
+    "tol_minus": 5.0,
+    "tol_plus": 5.0,
+    "unit": "mm"
+  },
+  {
+    "category": "dimension",
+    "description": "Wall height",
+    "expected_value": 2400.0,
+    "item_id": "P-002",
+    "location": "Room-101-WallN",
+    "tol_minus": 10.0,
+    "tol_plus": 10.0,
+    "unit": "mm"
+  },
+  {
+    "category": "dimension",
+    "description": "Window width",
+    "expected_value": 1200.0,
+    "item_id": "P-003",
+    "location": "Room-102-WindowA",
+    "tol_minus": 8.0,
+    "tol_plus": 8.0,
+    "unit": "mm"
+  },
+  {
+    "category": "dimension",
+    "description": "Beam length",
+    "expected_value": 3000.0,
+    "item_id": "P-004",
+    "location": "Room-102-BeamA",
+    "tol_minus": 15.0,
+    "tol_plus": 15.0,
+    "unit": "mm"
+  },
+  {
+    "category": "material",
+    "description": "Floor finish material",
+    "expected_material": "oak",
+    "item_id": "P-005",
+    "location": "Room-103-Floor"
+  },
+  {
+    "category": "material",
+    "description": "Door material",
+    "expected_material": "steel",
+    "item_id": "P-006",
+    "location": "Room-103-DoorB"
+  },
+  {
+    "category": "dimension",
+    "description": "Panel width",
+    "expected_value": 500.0,
+    "item_id": "P-007",
+    "location": "Room-104-PanelA",
+    "tol_minus": 5.0,
+    "tol_plus": 5.0,
+    "unit": "mm"
+  },
+  {
+    "category": "count",
+    "description": "Light fixture count",
+    "expected_value": 4,
+    "item_id": "P-008",
+    "location": "Room-104-Fixtures",
+    "tol_minus": 0.0,
+    "tol_plus": 0.0,
+    "unit": "count"
+  },
+  {
+    "category": "dimension",
+    "description": "Column diameter",
+    "expected_value": 800.0,
+    "item_id": "P-009",
+    "location": "Room-105-ColumnA",
+    "tol_minus": 5.0,
+    "tol_plus": 5.0,
+    "unit": "mm"
+  }
+]

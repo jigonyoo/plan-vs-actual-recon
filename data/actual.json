@@ -1,0 +1,70 @@
+[
+  {
+    "item_id": "P-001",
+    "location": "Room-101-DoorA",
+    "measured_value": 900.0,
+    "notes": "exact match",
+    "unit": "mm"
+  },
+  {
+    "item_id": "P-002",
+    "location": "Room-101-WallN",
+    "measured_value": 2415.0,
+    "notes": "15mm over tolerance",
+    "unit": "mm"
+  },
+  {
+    "item_id": "P-003",
+    "location": "Room-102-WindowA",
+    "measured_value": 1207.5,
+    "notes": "close to tolerance edge",
+    "unit": "mm"
+  },
+  {
+    "item_id": "P-005",
+    "location": "Room-103-Floor",
+    "material": "laminate",
+    "notes": "spec called for oak"
+  },
+  {
+    "item_id": "P-006",
+    "location": "Room-103-DoorB",
+    "material": "steel",
+    "notes": "matches spec"
+  },
+  {
+    "item_id": "P-007",
+    "location": "Room-104-PanelA",
+    "measured_value": 50.2,
+    "notes": "recorded in cm, plan is mm",
+    "unit": "cm"
+  },
+  {
+    "item_id": "P-008",
+    "location": "Room-104-Fixtures",
+    "measured_value": 4,
+    "notes": "counted on site",
+    "unit": "count"
+  },
+  {
+    "item_id": "P-009",
+    "location": "Room-105-ColumnA",
+    "measured_value": 799.0,
+    "notes": "first reading",
+    "unit": "mm"
+  },
+  {
+    "item_id": "P-009",
+    "location": "Room-105-ColumnA",
+    "measured_value": 803.0,
+    "notes": "second, conflicting reading",
+    "unit": "mm"
+  },
+  {
+    "item_id": "A-999",
+    "location": "Room-106-Shelf",
+    "measured_value": 450.0,
+    "notes": "found on site, not in plan",
+    "unit": "mm"
+  }
+]
