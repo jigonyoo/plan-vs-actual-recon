@@ -1,10 +1,16 @@
 # Plan-vs-Actual Reconciliation & Tolerance Check
 
-A small data/automation engineering sample: reconcile a **plan/spec**
-(the list of items that were supposed to be there, with expected
-values and tolerances) against an **actual/inspection log** (what was
-actually recorded on site), and produce a report of what matched,
-what's missing, what's extra, and what's out of tolerance.
+Reconciles a **plan/spec** (the items that were supposed to be there, with
+expected values and tolerances) against an **actual/inspection log** (what
+was actually recorded on site), and produces a report of what matched,
+what's missing, what's extra, and what's out of tolerance. Records match by
+`item_id` first and `location` as a fallback; units are converted before
+comparison, a value using 90% or more of its available tolerance is flagged
+`borderline` even though it's technically within spec, and a plan item with
+more than one matching actual record is flagged `ambiguous` and left for a
+human rather than silently resolved. It consumes numbers that someone (or
+some other system) already measured and recorded: it does not read drawings,
+PDFs, or CAD files, does no computer vision, and measures nothing itself.
 
 This is a portfolio sample for structured-data reconciliation work —
 the kind of task that shows up as "does the inspection log match the
