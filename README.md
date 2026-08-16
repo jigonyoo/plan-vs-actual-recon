@@ -12,11 +12,6 @@ human rather than silently resolved. It consumes numbers that someone (or
 some other system) already measured and recorded: it does not read drawings,
 PDFs, or CAD files, does no computer vision, and measures nothing itself.
 
-This is a portfolio sample for structured-data reconciliation work —
-the kind of task that shows up as "does the inspection log match the
-spec sheet" across construction punch lists, manufacturing QA,
-equipment audits, or fulfillment checks.
-
 ## What this is honestly
 
 This is a **structured reconciliation tool**. It consumes two lists of
@@ -133,3 +128,10 @@ SCHEMA.md         field-level schema for plan/actual files
 - **No network, no external services.** Everything runs offline,
   stdlib-only, by design — there's no OCR, no LLM extraction, and
   no API calls in this sample.
+
+## About this sample
+
+This is a portfolio sample for structured-data reconciliation work —
+the kind of task that shows up as "does the inspection log match the
+spec sheet" across construction punch lists, manufacturing QA,
+equipment audits, or fulfillment checks.
